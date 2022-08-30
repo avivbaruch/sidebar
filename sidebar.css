@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(121, 130, 138);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    height: 100%;
+
+}
+
+.main {
+    height: 500px;
+    width: 400px;
+    background-image: url(רקע.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.sidebar{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+
+.text {
+    font-size: 25px;
+    font-family: 'cursive';
+    color: white;
+}
+
+.list{
+ height:200px;
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    color: rgb(106, 106, 104);
+    font-size: 30px;
+    font-family: 'cursive';
+}
